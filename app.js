@@ -104,7 +104,7 @@ function processPostback(event) {
         name = bodyObj.first_name;
         greeting = "Hi " + name + ". ";
       }
-      var message = greeting + "Je suis là pour répondre à tes questiojns sur le code.";
+      var message = greeting + "Je suis là pour répondre à tes questions sur le code.";
       sendMessage(senderId, {text: message});
     });
   }
